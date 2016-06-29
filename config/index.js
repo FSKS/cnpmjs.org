@@ -18,7 +18,7 @@ var config = {
   /**
    * Cluster mode
    */
-  enableCluster: false,
+  enableCluster: true,
   numCPUs: os.cpus().length,
 
   /*
@@ -64,7 +64,7 @@ var config = {
   admins: {
     // name: email
     fengmk2: 'fengmk2@gmail.com',
-    admin: 'admin@cnpmjs.org',
+    admin: 'quentinyang@angejia.com',
     dead_horse: 'dead_horse@qq.com',
   },
 
@@ -147,7 +147,7 @@ var config = {
   enablePrivate: false,
 
   // registry scopes, if don't set, means do not support scopes
-  scopes: [ '@cnpm', '@cnpmtest', '@cnpm-test' ],
+  scopes: [ '@angejia', '@cnpm', '@cnpmtest', '@cnpm-test' ],
 
   // some registry already have some private packages in global scope
   // but we want to treat them as scoped private packages,
@@ -195,7 +195,7 @@ var config = {
   topPopular: 100,
 
   // sync devDependencies or not, default is false
-  syncDevDependencies: false,
+  syncDevDependencies: true,
 
   // changes streaming sync
   syncChangesStream: false,
